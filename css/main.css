@@ -15,17 +15,25 @@ body{
     padding-left: 80px;
   }
 */
-h1{
-  font-size: 90px;
-  margin: 2em 1em 20px 1em; /*top right bottom left*/
-padding: 20px 1px 20px 1px;
+
+
+h1 {
+  font-size: 60px;
+  margin: 2em 1em 20px 1em;
+  padding: 20px 1px 20px 1px;
   border-top: 1em;
   outline-color: #000000;
   background-color: #E55C5C;
   font-family: 'Merriweather', serif;
   outline-width: 1em;
 }
+@media (min-width: 48em) {
 
+  h1 {
+    font-size: 90px;
+  }
+
+}
 h2{
   font-size: 19px;
 margin: 0em 2em 4em 1em;
